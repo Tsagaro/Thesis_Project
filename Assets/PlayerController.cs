@@ -5,21 +5,36 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float translateSpeed = 5f;
-    // Start is called before the first frame update
+    SpriteRenderer spriteRenderer;
+    [SerializeField] Sprite[] characterSprites;
+    private const int CharacterSpriteUpIndex = 0;
+    private const int CharacterSpriteRightIndex = 1;
+    private const int CharacterSpriteDownIndex = 2;
+    private const int CharacterSpriteLeftIndex = 3;
+    int currentSpriteIndex = 0; //used to keep latest sprite index
+    
     void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //we will add rotation afterwards
-        // float rotateAcceleration = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed;
+        moveCharacterSprite();
+        changeCharacterSprite();
+    }
+
+    private void moveCharacterSprite(){
         float verticalSpeed = Input.GetAxis("Vertical") * Time.deltaTime * translateSpeed;
         float horizontalSpeed = Input.GetAxis("Horizontal") * Time.deltaTime * translateSpeed;
-        // transform.Rotate(0, 0, -rotateAcceleration);
         transform.Translate(horizontalSpeed, verticalSpeed, 0);
-        
+    }
+    private void changeCharacterSprite(){
+        if(Input.GetKey(KeyCode.LeftArrow)){ currentSpriteIndex = CharacterSpriteLeftIndex; }
+        else if(Input.GetKey(KeyCode.RightArrow)){ currentSpriteIndex = CharacterSpriteRightIndex; } 
+        else if(Input.GetKey(KeyCode.UpArrow)){ currentSpriteIndex = CharacterSpriteUpIndex; }
+        else if(Input.GetKey(KeyCode.DownArrow)){ currentSpriteIndex = CharacterSpriteDownIndex; }
+        spriteRenderer.sprite = characterSprites[currentSpriteIndex];
     }
 }
