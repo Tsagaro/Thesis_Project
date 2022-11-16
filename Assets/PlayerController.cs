@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     private const int CharacterSpriteRightIndex = 1;
     private const int CharacterSpriteDownIndex = 2;
     private const int CharacterSpriteLeftIndex = 3;
-    int currentSpriteIndex = 0; //used to keep latest sprite index
+    int currentSpriteIndex = CharacterSpriteDownIndex; //used to keep latest sprite index
     
     void Start()
     {
