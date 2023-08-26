@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();     
     }
 
     // Update is called once per frame
@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
         moveCharacterSprite();
         changeCharacterSprite();
     }
+
+    
+
 
     private void moveCharacterSprite(){
         float verticalSpeed = Input.GetAxis("Vertical") * Time.deltaTime * translateSpeed;
