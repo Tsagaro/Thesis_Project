@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 283340021}
-  - component: {fileID: 283340020}
   m_Layer: 0
   m_Name: Counter
   m_TagString: Untagged
@@ -140,23 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &283340020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283340019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 361878b4908f38e43ba0916dd62e38e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torchCounterPrefab: {fileID: 2047612386}
-  collectedTorches: 0
-  Player: {fileID: 0}
-  Torch: {fileID: 0}
-  mainCamera: {fileID: 0}
 --- !u!4 &283340021
 Transform:
   m_ObjectHideFlags: 0
@@ -13501,8 +13483,8 @@ GameObject:
   - component: {fileID: 1002472258}
   - component: {fileID: 1002472257}
   - component: {fileID: 1002472259}
-  - component: {fileID: 1002472260}
   - component: {fileID: 1002472261}
+  - component: {fileID: 1002472260}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13550,7 +13532,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: afadb85ef21b5a345b030b54cf34d269, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13612,9 +13594,9 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!61 &1002472261
 BoxCollider2D:
@@ -13626,7 +13608,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.016485214, y: 0.07420516}
@@ -13655,7 +13637,6 @@ GameObject:
   - component: {fileID: 1100326466}
   - component: {fileID: 1100326467}
   - component: {fileID: 1100326468}
-  - component: {fileID: 1100326469}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Monster
@@ -13703,7 +13684,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 04c5ad290be02c043aee9b1523c84012, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13782,32 +13763,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.4, y: 2.56}
   m_Direction: 0
---- !u!61 &1100326469
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100326463}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
-    newSize: {x: 2.56, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.56, y: 2.56}
-  m_EdgeRadius: 0
 --- !u!1 &1139411234
 GameObject:
   m_ObjectHideFlags: 0
@@ -15396,9 +15351,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2047612389}
   - component: {fileID: 2047612388}
+  - component: {fileID: 2047612391}
   - component: {fileID: 2047612387}
   - component: {fileID: 2047612390}
-  - component: {fileID: 2047612391}
+  - component: {fileID: 2047612392}
   m_Layer: 0
   m_Name: Torch
   m_TagString: Untagged
@@ -15466,8 +15422,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -883747864, guid: 5f8e3699184f981488da8ea2fb4a2769, type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: 96a0335372f873b4d80bbb53ab297156, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15487,7 +15443,7 @@ Transform:
   m_GameObject: {fileID: 2047612386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 583.71, y: 292.08002, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 10.21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -15506,18 +15462,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.43}
+  m_Offset: {x: 0.004699707, y: -0.43}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.5606253}
+    oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 2.56, y: 2.5606253}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.4}
+  m_Size: {x: 1.1782227, y: 1.4}
   m_EdgeRadius: 0
 --- !u!114 &2047612391
 MonoBehaviour:
@@ -15532,6 +15488,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
+  spriteRenderer: {fileID: 2047612388}
+  newSprite: {fileID: -883747864, guid: 5f8e3699184f981488da8ea2fb4a2769, type: 3}
+--- !u!50 &2047612392
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047612386}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 1
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 1
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2076577198
 GameObject:
   m_ObjectHideFlags: 0
