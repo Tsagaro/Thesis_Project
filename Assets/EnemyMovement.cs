@@ -17,9 +17,8 @@ public class EnemyMovement : MonoBehaviour
         }
 
     }
-    void Start()
     
-
+    void Start()
     {
 		// target = GameObject.FindGameObjectWithTag("Player").transform;
 
