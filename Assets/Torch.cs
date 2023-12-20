@@ -22,10 +22,10 @@ public class Torch : MonoBehaviour
     }
 
 
-    void ChangeSprite()
-    {
-        spriteRenderer.sprite = newSprite; 
-    }
+    //void ChangeSprite()
+    //{
+       // spriteRenderer.sprite = newSprite; 
+   // }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -33,13 +33,13 @@ public class Torch : MonoBehaviour
         {
             TorchCounter.instance.AddTorch(); //adds to the total torches
 
-            // hasCollided = true; // 
+            //hasCollided = true; // 
 
             //ChangeSprite(); // no need to change the sprite
 
             torchAnimator.SetBool("PlayAnimation", true); //sets the bool to true so the torch can light up
             torchCollider.enabled = false;
-            // Debug.Log("Collision detected"); // Debugging log
+            Debug.Log("Collision detected"); // Debugging log
 
 
         }
