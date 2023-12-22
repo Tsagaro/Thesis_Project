@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    void Update()
     {
         MoveCharacterSprite();
         ChangeCharacterSprite();
@@ -35,8 +35,9 @@ public class PlayerController : MonoBehaviour
 
     private void MoveCharacterSprite()
     {
-        float horizontalSpeed = Input.GetAxis("Horizontal") * moveSpeed;
-        float verticalSpeed = Input.GetAxis("Vertical") * moveSpeed;
+        float verticalSpeed = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+        float horizontalSpeed = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+        transform.Translate(horizontalSpeed, verticalSpeed, 0);
 
         // Set the velocity of the Rigidbody2D
         rb.velocity = new Vector2(horizontalSpeed, verticalSpeed);
