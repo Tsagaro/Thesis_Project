@@ -57,7 +57,6 @@ public class PlayerShooting : MonoBehaviour
 
     void ShootProjectile()
     {
-        Debug.Log("ShootProjectile called");
 
         // Check if the projectilePrefab and shootPoint are assigned
         if (projectilePrefab != null && shootPoint != null)

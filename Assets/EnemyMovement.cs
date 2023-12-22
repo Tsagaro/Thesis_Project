@@ -9,12 +9,20 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] Transform target;
     private NavMeshAgent agent;
     public string restartScenePath = "Scenes/Menu";
+    private double freezeSeconds = 3.0;
+    private double frozenTime = 0.0;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene(restartScenePath); 
         }
+        else if (other.gameObject.CompareTag("projectile"))
+        {
+            agent.enabled = false;
+        }
+    
 
     }
     
@@ -29,7 +37,20 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-		//chase the target's position (in this case - the player)
-        agent.SetDestination(target.position);
+        if(agent.enabled)
+        {
+            //chase the target's position (in this case - the player)
+            agent.SetDestination(target.position);
+        }
+        else 
+        {
+            frozenTime += Time.deltaTime;
+            if(frozenTime > freezeSeconds)
+            {
+                agent.enabled = true;
+                frozenTime = 0.0;
+            }
+        }
+
     }
 }
