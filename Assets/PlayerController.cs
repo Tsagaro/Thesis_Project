@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float moveSpeed = 1f;
     SpriteRenderer spriteRenderer;
     [SerializeField] Sprite[] characterSprites;
     private const int CharacterSpriteUpIndex = 0;
@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         MoveCharacterSprite();
         ChangeCharacterSprite();
         // Pass the input direction to the shooting script

@@ -5453,7 +5453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -22.917}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33.688057, y: 20.10286}
+  m_AnchoredPosition: {x: -28.8, y: 20.10286}
   m_SizeDelta: {x: 11.824, y: 13.122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &539212307
@@ -10559,7 +10559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -31.30806, y: 21.21286}
+  m_AnchoredPosition: {x: -23.62, y: 21.21286}
   m_SizeDelta: {x: 0.3496, y: 0.6038}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &652499444
@@ -11105,7 +11105,7 @@ GameObject:
   - component: {fileID: 948594973}
   m_Layer: 0
   m_Name: Bow_Standby
-  m_TagString: Untagged
+  m_TagString: Bow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11509,6 +11509,8 @@ GameObject:
   - component: {fileID: 1002472261}
   - component: {fileID: 1002472260}
   - component: {fileID: 1002472262}
+  - component: {fileID: 1002472263}
+  - component: {fileID: 1002472264}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -11557,7 +11559,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: afadb85ef21b5a345b030b54cf34d269, type: 3}
+  m_Sprite: {fileID: -1387106270, guid: 451afc1b9bad8ca47a2754b0b3280f83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -11577,8 +11579,8 @@ Transform:
   m_GameObject: {fileID: 1002472256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.49000004, y: 0.49000004, z: 0.49000004}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 999451405}
   m_Father: {fileID: 0}
@@ -11637,18 +11639,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008149475, y: -0.18863362}
+  m_Offset: {x: -0.003362909, y: -0.016320229}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2.56, y: 2.560625}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.33181316, y: 0.56586874}
+  m_Size: {x: 0.95405614, y: 2.0783978}
   m_EdgeRadius: 0
 --- !u!114 &1002472262
 MonoBehaviour:
@@ -11665,6 +11667,39 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1910793017}
   shootPoint: {fileID: 999451405}
   projectileSpeed: 20
+--- !u!95 &1002472263
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002472256}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 52cd3b5534b5bd748b7c1419747a64de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1002472264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002472256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5b26106e05de849a16402f4f03cdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1002472263}
 --- !u!1 &1090214268
 GameObject:
   m_ObjectHideFlags: 0
@@ -11917,8 +11952,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100326463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.27, y: -1.13, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: 26.67, y: -4.57, z: 0}
+  m_LocalScale: {x: 1.19, y: 1.19, z: 1.19}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -11948,7 +11983,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.62
-  m_Speed: 3.5
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 44
   m_AngularSpeed: 120
@@ -11973,8 +12008,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0049614906, y: -0.046887398}
-  m_Size: {x: 0.7298778, y: 0.9062289}
+  m_Offset: {x: -0.023649719, y: 0.033204693}
+  m_Size: {x: 0.98083276, y: 1.2265966}
   m_Direction: 0
 --- !u!95 &1100326469
 Animator:
