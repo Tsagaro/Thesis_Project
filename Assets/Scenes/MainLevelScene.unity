@@ -378,8 +378,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -200.1, y: -200.03}
-  m_SizeDelta: {x: 73.958, y: 52.6252}
+  m_AnchoredPosition: {x: -199.97531, y: -200.03}
+  m_SizeDelta: {x: 64.8792, y: 52.6252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478269814
 MonoBehaviour:
@@ -452,7 +452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 506185413}
   - component: {fileID: 506185412}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: TorchCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5378,8 +5378,8 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.68, y: 0.68, z: 0.68}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -12482,7 +12482,7 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
+  m_MaximumTileChangeCount: 5000
   m_ExtrusionFactor: 0
 --- !u!50 &1410033760
 Rigidbody2D:
@@ -15165,7 +15165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523037294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.84, y: -0.58, z: 14.7851}
+  m_LocalPosition: {x: 4.41, y: 2.84, z: 14.7851}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
