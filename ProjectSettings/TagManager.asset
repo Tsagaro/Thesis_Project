@@ -11,7 +11,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Effects
   - Water
   - UI
   - Projectile
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: UI Elements
     uniqueID: 1309448103
+    locked: 0
+  - name: Effects
+    uniqueID: 3189200097
     locked: 0
