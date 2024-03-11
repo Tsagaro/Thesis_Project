@@ -11677,7 +11677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad78e99c682327e42b16c2bfba4b4010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
   characterSprites:
   - {fileID: 21300000, guid: ce0b34344660f6c4bac58fe4f0b9df31, type: 3}
   - {fileID: 21300000, guid: dfd94f9ed7eb6ba4b970543f8e5079be, type: 3}
@@ -15337,6 +15337,7 @@ GameObject:
   - component: {fileID: 1533839845}
   - component: {fileID: 1533839844}
   - component: {fileID: 1533839843}
+  - component: {fileID: 1533839848}
   m_Layer: 0
   m_Name: Torch3
   m_TagString: Untagged
@@ -15494,6 +15495,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1533839848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533839841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 8446220f1387ba74ea9367f28cedb418, type: 2}
+  isGlobal: 0
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1 &1542592067
 GameObject:
   m_ObjectHideFlags: 0

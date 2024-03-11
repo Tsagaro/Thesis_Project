@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
+    
     public GameObject projectilePrefab;
     public Transform shootPoint;
     public float projectileSpeed = 10f;
-
     private Vector3 offset = Vector3.zero;
     private Vector2 lastMovementDirection = Vector2.right; // Default direction is +x axis
 
     private bool canShoot = false;
-
+     
     void Update()
     {
          // Check for shooting input and if shooting is allowed

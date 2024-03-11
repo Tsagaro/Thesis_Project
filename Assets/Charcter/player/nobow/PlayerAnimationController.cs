@@ -23,7 +23,7 @@ public class PlayerAnimationController : MonoBehaviour
         bool moveUp = Input.GetKey(KeyCode.UpArrow);
         bool moveDown = Input.GetKey(KeyCode.DownArrow);
         bool moveLeft = Input.GetKey(KeyCode.LeftArrow);
-        bool moveRight = Input.GetKey(KeyCode.RightArrow);
+        bool moveRight = Input.GetKey(KeyCode.RightArrow);      
 
         // Update the Animator parameters based on arrow key inputs
         UpdateMovementAnimationParameters(moveUp, moveDown, moveLeft, moveRight);
