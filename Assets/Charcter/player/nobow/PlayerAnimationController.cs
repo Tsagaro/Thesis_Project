@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerAnimationController : MonoBehaviour
@@ -10,6 +11,7 @@ public class PlayerAnimationController : MonoBehaviour
     private string moveLeftParameter = "MovingLeft";
     private string moveRightParameter = "MovingRight";
     private string bowParameter = "HasBow";
+    private string attackParameter = "AttackBow";
 
     void Start()
     {
@@ -23,19 +25,22 @@ public class PlayerAnimationController : MonoBehaviour
         bool moveUp = Input.GetKey(KeyCode.UpArrow);
         bool moveDown = Input.GetKey(KeyCode.DownArrow);
         bool moveLeft = Input.GetKey(KeyCode.LeftArrow);
-        bool moveRight = Input.GetKey(KeyCode.RightArrow);      
+        bool moveRight = Input.GetKey(KeyCode.RightArrow);
+        bool attack = Input.GetKey(KeyCode.Space);
 
         // Update the Animator parameters based on arrow key inputs
-        UpdateMovementAnimationParameters(moveUp, moveDown, moveLeft, moveRight);
+        UpdateMovementAnimationParameters(moveUp, moveDown, moveLeft, moveRight, attack);
     }
 
-    void UpdateMovementAnimationParameters(bool moveUp, bool moveDown, bool moveLeft, bool moveRight)
+    void UpdateMovementAnimationParameters(bool moveUp, bool moveDown, bool moveLeft, bool moveRight, bool attack)
     {
         // Update the Animator parameters based on arrow key inputs
         animator.SetBool(moveUpParameter, moveUp);
         animator.SetBool(moveDownParameter, moveDown);
         animator.SetBool(moveLeftParameter, moveLeft);
         animator.SetBool(moveRightParameter, moveRight);
+        animator.SetBool(attackParameter, attack);
+       StartCoroutine(ResetAttackCoroutine());
         Debug.Log($"MoveUp: {moveUp}, MoveDown: {moveDown}, MoveLeft: {moveLeft}, MoveRight: {moveRight}");
 
     }
@@ -46,5 +51,9 @@ public class PlayerAnimationController : MonoBehaviour
             animator.SetBool(bowParameter, true);
         }
     }
-
+    IEnumerator ResetAttackCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        animator.SetBool(attackParameter, false);
+    }
 }

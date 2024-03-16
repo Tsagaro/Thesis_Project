@@ -18,10 +18,11 @@ public class TorchCounter : MonoBehaviour
         }
 
     }
-    public void AddTorch()
+    public int AddTorch()
     {
         count++;      
         text.text = count.ToString();
+        return count;
     }
     
 }

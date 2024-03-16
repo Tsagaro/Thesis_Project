@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
@@ -5,19 +7,23 @@ public class PlayerShooting : MonoBehaviour
     
     public GameObject projectilePrefab;
     public Transform shootPoint;
-    public float projectileSpeed = 10f;
+    private GameObject projectile;
+    public float projectileSpeed = 5f;
     private Vector3 offset = Vector3.zero;
     private Vector2 lastMovementDirection = Vector2.right; // Default direction is +x axis
 
     private bool canShoot = false;
+    private bool freezeShot = false;
+    private bool hasBow = false;
      
     void Update()
     {
          // Check for shooting input and if shooting is allowed
-            if (Input.GetKeyDown(KeyCode.Space) && canShoot)
+            if (Input.GetKeyDown(KeyCode.Space) && canShoot && !freezeShot)
             {
                 // Call the method to shoot a projectile with the specified direction
                 ShootProjectile();
+                
             }
         
 
@@ -25,6 +31,7 @@ public class PlayerShooting : MonoBehaviour
 
     public void SetShootingDirection(Vector2 direction)
     {
+
         // Rotate the shootPoint based on the shooting direction
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         shootPoint.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
@@ -35,6 +42,11 @@ public class PlayerShooting : MonoBehaviour
         // Update the offset only when the player is moving
         if (direction != Vector2.zero)
         {
+            if (hasBow)
+            {
+                canShoot = true;
+            }
+                
             // Adjust the offset based on the player's movement
             if (direction.x > 0) // Moving right
             {
@@ -53,6 +65,24 @@ public class PlayerShooting : MonoBehaviour
                 offset = new Vector3(0.01f, -0.64f, 0f);
             }
         }
+        else
+        {
+            if (hasBow)
+            {
+                canShoot = false;
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("test - on trigger entered");
+        if (projectile != null)
+        {
+            Debug.Log("projectile was not null.");
+            Destroy(projectile);
+        }
+        
     }
 
     void ShootProjectile()
@@ -62,7 +92,7 @@ public class PlayerShooting : MonoBehaviour
         if (projectilePrefab != null && shootPoint != null)
         {
             // Instantiate a new projectile at the shootPoint position with the current rotation
-            GameObject projectile = Instantiate(projectilePrefab, shootPoint.position + offset, shootPoint.rotation);
+            projectile = Instantiate(projectilePrefab, shootPoint.position + offset, shootPoint.rotation);
 
             // Get the Rigidbody2D component of the projectile
             Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
@@ -76,16 +106,31 @@ public class PlayerShooting : MonoBehaviour
             else
             {
                 Debug.LogError("Rigidbody2D component not found on the projectilePrefab.");
+
             }
+            freezeShot = true;
+            StartCoroutine(DestroyCoroutine());
         }
         else
         {
+
             Debug.LogError("Projectile prefab or shoot point not assigned in the inspector.");
         }
+
+        
     }
 
+    IEnumerator DestroyCoroutine()
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(projectile);
+        projectile = null;
+        freezeShot = false;
+    }
+
+    //called when bow is picked up
     public void EnableShooting()
     {
-        canShoot = true; // Set a flag to enable shooting
+        hasBow = true; // Set a flag to enable shooting
     }
 }
