@@ -7,6 +7,7 @@ TagManager:
   - Monster
   - projectile
   - Bow
+  - Trap
   layers:
   - Default
   - TransparentFX
