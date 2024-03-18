@@ -1,0 +1,1597 @@
+fileFormatVersion: 2
+guid: 46266defbaa1c744ea0fed631d097273
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DEAD_SUPER_0
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 5780
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0482ee93b81ba44fb3a55ab6a3e17cd
+      internalID: -1141113408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5440
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5364b646637f37c4482582f35d3aa025
+      internalID: 2131193222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_2
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 5440
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a33cd424414a484f9b2a912768b0085
+      internalID: 896201192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_3
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 5440
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a504538805a9c4f966a720186cc49f
+      internalID: -1515302537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_4
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 5440
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0703d6b788cf97c4cbb65e1519a0b79b
+      internalID: 1239329157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5100
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9876c976fbc07934697545f5d7479858
+      internalID: 457238457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_6
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 5100
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d6e335ef8a5fc479172bcc1515f388
+      internalID: -308643481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_7
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 5100
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9126f9ec487950041a2b5649fb842fac
+      internalID: -1351784253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_8
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 5100
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790d17b769a564c4e9cf448d5d49bb85
+      internalID: 406233742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4760
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16004206bb6c9d44845b1b7f2836a9a
+      internalID: 1099953919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_10
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 4760
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0473805d7fd77408e5b8169ca066a2
+      internalID: -482124759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_11
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 4760
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a18befa5381c0744950c61b2e75fad9
+      internalID: -85253085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_12
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4760
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736972afa50ab23448babfad39bf8b50
+      internalID: -1068664554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4420
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860943843d330b74780d05937654eb9e
+      internalID: -879499873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_14
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 4420
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6d71f1709b7ba4ead7f0792a7105d5
+      internalID: -1431389143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_15
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 4420
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470fc3973f5eb884885e52c37f4aecad
+      internalID: -776986960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_16
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4420
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aece55ef9c440104488dbb913f64063d
+      internalID: -959754148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4080
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba1c4226365782418cd2c1fbcd4181f
+      internalID: -1213043042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_18
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 4080
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11641431366a53c40ab8eff53ded3a07
+      internalID: 2138281501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_19
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 4080
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db0843d47a52ac4fb0e4e1d2106a32a
+      internalID: 2076790640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_20
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4080
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f1f23373cf05c4eb7d546fcee784d4
+      internalID: -1398242091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3740
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c90737edcb81b642b43ea0ae2f94622
+      internalID: -2125581863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_22
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 3740
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700003195f362674f9f50da0fc58b5e6
+      internalID: 1626971002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_23
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3740
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e91d8c24946a04fbede0ad5d698c8a
+      internalID: 1720859887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_24
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 3740
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd7911f253e2e24da4feff3e4c05cf1
+      internalID: 1849135568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3400
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b9922e144e1eb4e96ea60cd9632e27
+      internalID: -1328310381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_26
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 3400
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5521ce0db250441b5eb359d70942f7
+      internalID: 634313638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_27
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3400
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9c0e0d3576448458c211481f33c733
+      internalID: 380751016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_28
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 3400
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d887b5bfb20fe4a8f58b51c1e2afb8
+      internalID: 960995084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdd827f0e9987d40aef8440f56da626
+      internalID: -531000718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_30
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 3060
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c62597d3eef2dd4b8fc42ee7394acf7
+      internalID: -1666647701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_31
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 3060
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c2fa9a5d36ce549b1731135c677b91
+      internalID: -1625266220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_32
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 3060
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a12ca209dfff064eb07667bcae019b9
+      internalID: -585214997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c6c36584bf2494dbe41b5156ec7ccb
+      internalID: -191901434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_34
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 2720
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e755f673ed7144ea10eea3991673b0
+      internalID: -1937989772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_35
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2720
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3741583c0bddc3b4c8dc587f0ddc7743
+      internalID: 1388125723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_36
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2720
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dac0ff5934b064696ab5dfce2b1025
+      internalID: 478029043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe603b75878fb2446b512fa3a47604cf
+      internalID: 1218970335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_38
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 2380
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e1b4ace32409a42a43ab1d663d92ec
+      internalID: -696737971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_39
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2380
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0942a0c2847424293b57bf6fa855e7
+      internalID: 1363685977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_40
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2380
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4205c2d843f7645bf68ee49a282555
+      internalID: 637095319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a899381df4034da47b3e0cec0e64e801
+      internalID: -1714643034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_42
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 2040
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d917b3a929036c1458820753693fbf6a
+      internalID: -2036126348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_43
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 2040
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2091cbf264a823e4dae5fed34d226273
+      internalID: -248963751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_44
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 2040
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e94c7a6942a2b428acd50164138273
+      internalID: 1815148291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849e39537e83ba048b0fae4a6a205060
+      internalID: 1285790681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_46
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1700
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afc327a7463a4640aedfd271f56385c
+      internalID: 1133615296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_47
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1700
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d102dccada8664242a2a8d2c76db0eec
+      internalID: -593496631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_48
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1700
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a907c8158e49a48873268548fa48ac
+      internalID: 1186075816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9618cfc0fbf43c8489184d2124088b19
+      internalID: 343819504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_50
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1360
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e1e54d3cc374341b69beaee46b997f
+      internalID: 128400657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_51
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1360
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3f9934bfdb42a408af350e6b4285ef
+      internalID: -394894856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_52
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1360
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7c749da1eb36b4cb269e96b650f389
+      internalID: -530389648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e13025a09d6944ca1276da1425ec40
+      internalID: -34644860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_54
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1020
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dc6b76580fd2a4db6265b23d39598b
+      internalID: 1205056617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_55
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 1020
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51fb6185879f7b4fa4421b1278e3c19
+      internalID: -424043723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_56
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1020
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3314acb60fcf83943ab6b0c5b8b90909
+      internalID: -1439584461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6524726398f34840beda25ace771538
+      internalID: 1083519510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_58
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 680
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a775aeb262dd90145b99626552d0ccf2
+      internalID: -1603663272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_59
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 680
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150611e7bfbeda440aca51206be00fcf
+      internalID: 1077314176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_60
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 680
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284ff1f78e51f2641ad22eaf5b8adbec
+      internalID: -720163238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd40391cd5955664f822ad5bf494173c
+      internalID: -1752640880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_62
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 340
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed5e5c055889234ab9e51652bc7d558
+      internalID: 1645777856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_63
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 340
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab716b40c26fe1408e9d62262452af1
+      internalID: 1690799150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_64
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 340
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14abd6ca450a9a74bbea380cdb69bf86
+      internalID: -747955109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba2c5d01b8fc5e44a9bf0e2469fd1a3
+      internalID: 1825513183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DEAD_SUPER_66
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 0
+        width: 1070
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a04e39a48f4e614fa642eca3671bc08
+      internalID: 588108240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DEAD_SUPER_61: -1752640880
+      DEAD_SUPER_5: 457238457
+      DEAD_SUPER_18: 2138281501
+      DEAD_SUPER_4: 1239329157
+      DEAD_SUPER_21: -2125581863
+      DEAD_SUPER_35: 1388125723
+      DEAD_SUPER_49: 343819504
+      DEAD_SUPER_66: 588108240
+      DEAD_SUPER_11: -85253085
+      DEAD_SUPER_32: -585214997
+      DEAD_SUPER_58: -1603663272
+      DEAD_SUPER_7: -1351784253
+      DEAD_SUPER_33: -191901434
+      DEAD_SUPER_8: 406233742
+      DEAD_SUPER_9: 1099953919
+      DEAD_SUPER_38: -696737971
+      DEAD_SUPER_59: 1077314176
+      DEAD_SUPER_44: 1815148291
+      DEAD_SUPER_20: -1398242091
+      DEAD_SUPER_27: 380751016
+      DEAD_SUPER_23: 1720859887
+      DEAD_SUPER_29: -531000718
+      DEAD_SUPER_16: -959754148
+      DEAD_SUPER_30: -1666647701
+      DEAD_SUPER_25: -1328310381
+      DEAD_SUPER_47: -593496631
+      DEAD_SUPER_26: 634313638
+      DEAD_SUPER_24: 1849135568
+      DEAD_SUPER_43: -248963751
+      DEAD_SUPER_31: -1625266220
+      DEAD_SUPER_34: -1937989772
+      DEAD_SUPER_48: 1186075816
+      DEAD_SUPER_54: 1205056617
+      DEAD_SUPER_22: 1626971002
+      DEAD_SUPER_2: 896201192
+      DEAD_SUPER_51: -394894856
+      DEAD_SUPER_52: -530389648
+      DEAD_SUPER_42: -2036126348
+      DEAD_SUPER_17: -1213043042
+      DEAD_SUPER_28: 960995084
+      DEAD_SUPER_46: 1133615296
+      DEAD_SUPER_57: 1083519510
+      DEAD_SUPER_60: -720163238
+      DEAD_SUPER_39: 1363685977
+      DEAD_SUPER_40: 637095319
+      DEAD_SUPER_53: -34644860
+      DEAD_SUPER_0: -1141113408
+      DEAD_SUPER_41: -1714643034
+      DEAD_SUPER_37: 1218970335
+      DEAD_SUPER_19: 2076790640
+      DEAD_SUPER_10: -482124759
+      DEAD_SUPER_65: 1825513183
+      DEAD_SUPER_45: 1285790681
+      DEAD_SUPER_14: -1431389143
+      DEAD_SUPER_63: 1690799150
+      DEAD_SUPER_62: 1645777856
+      DEAD_SUPER_12: -1068664554
+      DEAD_SUPER_15: -776986960
+      DEAD_SUPER_1: 2131193222
+      DEAD_SUPER_36: 478029043
+      DEAD_SUPER_3: -1515302537
+      DEAD_SUPER_6: -308643481
+      DEAD_SUPER_13: -879499873
+      DEAD_SUPER_55: -424043723
+      DEAD_SUPER_56: -1439584461
+      DEAD_SUPER_50: 128400657
+      DEAD_SUPER_64: -747955109
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
