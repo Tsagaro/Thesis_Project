@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 2
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 256
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -871,10 +871,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TILES_1_4: -1253841444
+      TILES_1_35: -1623957929
       TILES_1_13: 70013948
-      TILES_1_34: -324820484
       TILES_1_8: 614007783
+      TILES_1_1: 283025528
       TILES_1_12: 311510049
       TILES_1_22: 1281211222
       TILES_1_15: -2042971620
@@ -897,14 +897,14 @@ TextureImporter:
       TILES_1_17: 698240378
       TILES_1_18: -1811958426
       TILES_1_20: 1981095017
-      TILES_1_29: 344860449
       TILES_1_2: -1506327376
-      TILES_1_24: 249922112
       TILES_1_25: 1538074021
+      TILES_1_24: 249922112
+      TILES_1_29: 344860449
+      TILES_1_34: -324820484
+      TILES_1_4: -1253841444
       TILES_1_3: 112597004
       TILES_1_28: 1500453001
-      TILES_1_35: -1623957929
-      TILES_1_1: 283025528
       TILES_1_16: 1606085177
       TILES_1_31: 241347926
   spritePackingTag: 
