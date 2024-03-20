@@ -18,15 +18,13 @@ public class PlayerShooting : MonoBehaviour
      
     void Update()
     {
-         // Check for shooting input and if shooting is allowed
-            if (Input.GetKeyDown(KeyCode.Space) && canShoot && !freezeShot)
-            {
-                // Call the method to shoot a projectile with the specified direction
-                ShootProjectile();
-                
-            }
-        
-
+        // Check for shooting input and if shooting is allowed
+        if (Input.GetKeyDown(KeyCode.Space) && canShoot && !freezeShot)
+        {
+            // Call the method to shoot a projectile with the specified direction
+            ShootProjectile();
+            
+        }
     }
 
     public void SetShootingDirection(Vector2 direction)
@@ -76,10 +74,8 @@ public class PlayerShooting : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("test - on trigger entered");
-        if (projectile != null)
+        if (projectile != null && other.tag != "projectile")
         {
-            Debug.Log("projectile was not null.");
             Destroy(projectile);
         }
         

@@ -8,7 +8,6 @@ public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] Transform target;
     private NavMeshAgent agent;
-    public string restartScenePath = "Scenes/Menu";
     private double freezeSeconds = 3.0;
     private double frozenTime = 0.0;
 
@@ -16,16 +15,30 @@ public class EnemyMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(restartScenePath); 
+            FreezeMonster();
+            Destroy(other.gameObject);
+
+            StartCoroutine(ExitGameCoroutine());
+            //LOAD ANIMATION()
+
         }
         else if (other.gameObject.CompareTag("projectile"))
         {
-            agent.enabled = false;
+            FreezeMonster();
         }
-    
-
     }
-    
+
+    private void FreezeMonster()
+    {
+        agent.enabled = false;
+    }   
+
+    IEnumerator ExitGameCoroutine()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Scenes/Menu"); 
+    }
+
     void Start()
     {
 		// target = GameObject.FindGameObjectWithTag("Player").transform;
