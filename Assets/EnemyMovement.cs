@@ -10,6 +10,8 @@ public class EnemyMovement : MonoBehaviour
     private NavMeshAgent agent;
     private double freezeSeconds = 3.0;
     private double frozenTime = 0.0;
+    public GameObject deathAnime;
+    public GameObject deathOverlay;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -17,7 +19,8 @@ public class EnemyMovement : MonoBehaviour
         {
             FreezeMonster();
             Destroy(other.gameObject);
-
+            deathOverlay.GetComponent<Animator>().SetBool("Death", true);
+            deathAnime.GetComponent<Animator>().SetBool("Death", true);
             StartCoroutine(ExitGameCoroutine());
             //LOAD ANIMATION()
 
