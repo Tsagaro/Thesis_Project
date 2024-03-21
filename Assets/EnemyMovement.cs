@@ -7,6 +7,12 @@ using UnityEngine.SceneManagement;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] Transform target;
+    [SerializeField] float _playerAwarenessDistance;
+    [SerializeField] float agentRangeOfMovement;
+    [SerializeField] Transform centrePoint;
+
+
+
     private NavMeshAgent agent;
     private double freezeSeconds = 3.0;
     private double frozenTime = 0.0;
@@ -19,7 +25,6 @@ public class EnemyMovement : MonoBehaviour
             Destroy(other.gameObject);
 
             StartCoroutine(ExitGameCoroutine());
-            //LOAD ANIMATION()
 
         }
         else if (other.gameObject.CompareTag("projectile"))
@@ -50,10 +55,28 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        //This code makes the monster chase the player
         if(agent.enabled)
         {
-            //chase the target's position (in this case - the player)
-            agent.SetDestination(target.position);
+
+            Vector2 enemyToPlayerVector = target.position - agent.nextPosition;
+
+            if(enemyToPlayerVector.magnitude <= _playerAwarenessDistance) //is monster close to player?
+            {
+                agent.SetDestination(target.position); //chase the target's position (in this case - the player)
+            }
+            else
+            {
+                Vector3 randomPosition;
+                if(agent.remainingDistance <= agent.stoppingDistance) //done with path
+                {
+                    RandomPoint(centrePoint.position, out randomPosition);
+                    Debug.Log("enemyToRandomVector, agent is going to ... " +randomPosition);
+                    Debug.DrawRay(randomPosition, Vector2.up, Color.red, 1.0f); //so you can see with gizmos
+                    agent.SetDestination(randomPosition); //wander aimlessly
+                    
+                }
+            }
         }
         else 
         {
@@ -65,5 +88,23 @@ public class EnemyMovement : MonoBehaviour
             }
         }
 
+    }
+
+    
+    bool RandomPoint(Vector3 center, out Vector3 result)
+    {
+ 
+        Vector3 randomPoint = center + Random.insideUnitSphere * agentRangeOfMovement; //random point in a sphere 
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(randomPoint, out hit, agentRangeOfMovement,  NavMesh.AllAreas)) //documentation: https://docs.unity3d.com/ScriptReference/AI.NavMesh.SamplePosition.html
+        { 
+            //the 1.0f is the max distance from the random point to a point on the navmesh, might want to increase if range is big
+            //or add a for loop like in the documentation
+            result = hit.position;
+            return true;
+        }
+
+        result = Vector3.zero;
+        return false;
     }
 }
