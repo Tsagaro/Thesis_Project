@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 2
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,9 +42,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,7 +103,1435 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: WINNER_SUPER_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4384
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78df499beeb2040479b13e537e2e6170
+      internalID: 1159201289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_1
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 4384
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7822b18da048a0243b5a172acc7c5b12
+      internalID: 187510682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_2
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 4384
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5638b9850c508714887e45e2c3e7d843
+      internalID: 1221800989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_3
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 4384
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d798aaafbc3ee364fbb463a0904d63c9
+      internalID: -1991824680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4110
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9930e39670772164e9bdf68888ca5d61
+      internalID: -160906884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_5
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 4110
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30caa55732db37b4fa30157bc5bde5bf
+      internalID: 1694190723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_6
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 4110
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b8d2495d21444bbecc094ca6b09d4
+      internalID: -1813755482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_7
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 4110
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06d5b24535440640b2dc81c2240e601
+      internalID: 1691942776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3836
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b886cad2bcdb24198f34c7d80e3dc7
+      internalID: 1848109523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 3836
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9c4610eac2e0c47a23d6172e821bf6
+      internalID: -593827052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_10
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3836
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e509a3aeee30ea4887f2e982014eadd
+      internalID: 919841159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_11
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3836
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a4dac88082eaa4d96381e86049130c
+      internalID: -1091697500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3562
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240b97905207a324d9580ffe0952db91
+      internalID: 1340985350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_13
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 3562
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b2b72458368d847947be36966ece7a
+      internalID: -452261143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_14
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3562
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f9d5bfdc689d241a2ae905226f06a9
+      internalID: -388421236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_15
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3562
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbbee8442b52cb428dfd03336044f8b
+      internalID: 1541346498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3288
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972075f4b873b8944ad99cc3d710e225
+      internalID: 325067319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_17
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 3288
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41e547ec26f3cd40a9eaf0bb414f3fc
+      internalID: -490504933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_18
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3288
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ec07dd8b94ee44d8b0681889a2a82e
+      internalID: -1318108582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_19
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3288
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8692e095e1bd5e45942be534483f695
+      internalID: -1935061870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3014
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd23b352a5a73f4e87c5b9c1183b82a
+      internalID: -1065631834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_21
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 3014
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddd998b2220fc64bab4567f6c01aa03
+      internalID: 317420748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_22
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3014
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755f8e4d9f1950c4fa0734f32f2264c0
+      internalID: -1582337293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_23
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3014
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fef541d12f199c419fe87911bc343da
+      internalID: -1814781845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2740
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ef65097c523684fa3ca65bb8dd35c5
+      internalID: -1915478663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_25
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2740
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f50c2d0c7bf524d91707f75e352bf8
+      internalID: -947576053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_26
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2740
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e3aae62cfe93647a9a1f02041c7f22
+      internalID: -563173834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_27
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2740
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce9ac4e2abae7848abc3d97303e2da8
+      internalID: 1458775200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2466
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fbde1b6916b6d41b0ec3e52c633fba
+      internalID: -786913256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_29
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2466
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fb30ae195ee444f8971c1cbe7b6e05
+      internalID: -1987967308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_30
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2466
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f590174a8b4f234ab48713e891aa78a
+      internalID: 2113750565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_31
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2466
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2c39033763a69439cb12e03a017c2f
+      internalID: 122149619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2192
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c23f133e51481a4dbb22e80cc9ed71f
+      internalID: -1352087104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_33
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 2192
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edde547aa48e96747adf83b3add42437
+      internalID: -643284827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_34
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2192
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e723a71f142e4ad4bb54ab101a77fe87
+      internalID: 1572293729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_35
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2192
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2550e02345307546862c19df39c66d4
+      internalID: -865501616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1918
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4162548104e91f349bfe4d05125fdfcd
+      internalID: 1096414664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_37
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1918
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c332e753dd7fc4bbf9124257bbfa99
+      internalID: -936778920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_38
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1918
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c248a21233e32c14d97f1a2b15c0d72e
+      internalID: -255848937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_39
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1918
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743db2072ac9f5e409e59a90f34435e2
+      internalID: 2107714126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1644
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dde04caf224e64184976808f2eb9a9
+      internalID: -1936066345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_41
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1644
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55143c1b9153ff458119ceb54c8a32d
+      internalID: 1229479219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_42
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1644
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709a25c625b3f5543a5ffa4a02488177
+      internalID: -588447490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_43
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1644
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924c91153f205a544a1a8cdeb1e121c4
+      internalID: -1244867047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1370
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb8b48022bc6c743b0052ec3b646f97
+      internalID: -267541153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_45
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1370
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad27dba1cfb0d594ba030c03e1b0f2f2
+      internalID: 96692743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_46
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1370
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad19752e32c9324f8e0bb08e90de3e8
+      internalID: -1402418663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_47
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1370
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63f670497e41f8439add82721850e95
+      internalID: -764873374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1096
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffa3a63a7cadbc46b96b65532af373e
+      internalID: 848140845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_49
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1096
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2cdf82a7fd65b4c8d4ba29195e104a
+      internalID: -1452329877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_50
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1096
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bc7a3ab817473489010f9134269e73
+      internalID: 652515727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_51
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 1096
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7cb1a5975da2f47882ca95ef7de1a2
+      internalID: -347915627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 822
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56cff8285496f04fa7bdfc39908ed40
+      internalID: 1087465913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_53
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 822
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78ef4229858c174383bc7b1fe1115aa
+      internalID: 1989771894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_54
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 822
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aa7008243c828428fee52e08bdf640
+      internalID: -1753571511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_55
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 822
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a124740fef63749b4344c5837ee6bc
+      internalID: -406219358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 548
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d4b1c4611235a4792762ac7ea6ff86
+      internalID: -230342224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_57
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 548
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6da4b6154929074ca226fdb013ba003
+      internalID: 1732781734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_58
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 548
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41586cab26a36d4c87011fa6015395b
+      internalID: -1066228605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_59
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 548
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76396b68db76b604c947998c670450c3
+      internalID: -282521636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c305977fd4a16934a968ab077e5110e3
+      internalID: 1191792140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_61
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 274
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cfa73b052fb6d4c893fc3f262f05f6
+      internalID: 1171494539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_62
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 274
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f3a52cb81123242873058ec9d5ccc3
+      internalID: 482771156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_63
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 274
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25daa981713758d4fbe2a7f8256bed64
+      internalID: 166668220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c733fa907f3bb43bc6c3772f6276b6
+      internalID: 1727263314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_65
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bf4e92d3123d741962d94fb2e1b933
+      internalID: -171329160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_66
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 0
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d8838784f0e3041ad85e105ec37b44
+      internalID: -257746740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WINNER_SUPER_67
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 0
+        width: 984
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3446ac3dea19c12439bf300b163c2866
+      internalID: 394676751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1542,75 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WINNER_SUPER_26: -563173834
+      WINNER_SUPER_5: 1694190723
+      WINNER_SUPER_3: -1991824680
+      WINNER_SUPER_46: -1402418663
+      WINNER_SUPER_38: -255848937
+      WINNER_SUPER_48: 848140845
+      WINNER_SUPER_53: 1989771894
+      WINNER_SUPER_4: -160906884
+      WINNER_SUPER_6: -1813755482
+      WINNER_SUPER_52: 1087465913
+      WINNER_SUPER_55: -406219358
+      WINNER_SUPER_62: 482771156
+      WINNER_SUPER_29: -1987967308
+      WINNER_SUPER_7: 1691942776
+      WINNER_SUPER_1: 187510682
+      WINNER_SUPER_40: -1936066345
+      WINNER_SUPER_21: 317420748
+      WINNER_SUPER_39: 2107714126
+      WINNER_SUPER_67: 394676751
+      WINNER_SUPER_54: -1753571511
+      WINNER_SUPER_15: 1541346498
+      WINNER_SUPER_47: -764873374
+      WINNER_SUPER_9: -593827052
+      WINNER_SUPER_13: -452261143
+      WINNER_SUPER_42: -588447490
+      WINNER_SUPER_16: 325067319
+      WINNER_SUPER_51: -347915627
+      WINNER_SUPER_10: 919841159
+      WINNER_SUPER_57: 1732781734
+      WINNER_SUPER_37: -936778920
+      WINNER_SUPER_24: -1915478663
+      WINNER_SUPER_60: 1191792140
+      WINNER_SUPER_8: 1848109523
+      WINNER_SUPER_19: -1935061870
+      WINNER_SUPER_41: 1229479219
+      WINNER_SUPER_2: 1221800989
+      WINNER_SUPER_23: -1814781845
+      WINNER_SUPER_12: 1340985350
+      WINNER_SUPER_58: -1066228605
+      WINNER_SUPER_20: -1065631834
+      WINNER_SUPER_22: -1582337293
+      WINNER_SUPER_28: -786913256
+      WINNER_SUPER_11: -1091697500
+      WINNER_SUPER_17: -490504933
+      WINNER_SUPER_25: -947576053
+      WINNER_SUPER_65: -171329160
+      WINNER_SUPER_63: 166668220
+      WINNER_SUPER_44: -267541153
+      WINNER_SUPER_27: 1458775200
+      WINNER_SUPER_56: -230342224
+      WINNER_SUPER_36: 1096414664
+      WINNER_SUPER_49: -1452329877
+      WINNER_SUPER_64: 1727263314
+      WINNER_SUPER_35: -865501616
+      WINNER_SUPER_34: 1572293729
+      WINNER_SUPER_61: 1171494539
+      WINNER_SUPER_31: 122149619
+      WINNER_SUPER_59: -282521636
+      WINNER_SUPER_0: 1159201289
+      WINNER_SUPER_66: -257746740
+      WINNER_SUPER_30: 2113750565
+      WINNER_SUPER_50: 652515727
+      WINNER_SUPER_45: 96692743
+      WINNER_SUPER_32: -1352087104
+      WINNER_SUPER_33: -643284827
+      WINNER_SUPER_14: -388421236
+      WINNER_SUPER_43: -1244867047
+      WINNER_SUPER_18: -1318108582
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
