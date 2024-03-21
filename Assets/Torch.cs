@@ -31,7 +31,7 @@ public class Torch : MonoBehaviour
             torchAnimator.SetBool("PlayAnimation", true); //sets the bool to true so the torch can light up
             torchCollider.enabled = false;
             Debug.Log("Collision detected "+ total); // Debugging log
-            if (total >= 1)
+            if (total >= 4)
             {
                 SceneManager.LoadScene("Scenes/Cutscene");
             }

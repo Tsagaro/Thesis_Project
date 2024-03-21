@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
-using static PlayerAwarenessController;
 
 public class EnemyMovement : MonoBehaviour
 {
@@ -19,8 +18,6 @@ public class EnemyMovement : MonoBehaviour
     private double frozenTime = 0.0;
     public GameObject deathAnime;
     public GameObject deathOverlay;
-
-    private PlayerAwarenessController controller;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -54,13 +51,9 @@ public class EnemyMovement : MonoBehaviour
 
     void Start()
     {
-		// target = GameObject.FindGameObjectWithTag("Player").transform;
-
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        //agent.SetDestination(target.position);
-        //controller = new PlayerAwarenessController();
     }
 
     void Update()
@@ -69,8 +62,6 @@ public class EnemyMovement : MonoBehaviour
         //This code makes the monster chase the player
         if(agent.enabled)
         {
-
-
             Vector2 enemyToPlayerVector = target.position - agent.nextPosition;
 
             if (enemyToPlayerVector.magnitude <= _playerAwarenessDistance) //is monster close to player?
@@ -88,11 +79,6 @@ public class EnemyMovement : MonoBehaviour
                     agent.SetDestination(randomPosition);
                 }
             }
-
-           
-            //bool wandering = controller.GetNewPositionFrom(centrePoint, enemyToPlayerVector, isAgentDone, out randomPosition);
-            //Debug.Log("agent done being a thirsty b* " + isAgentDone + ", enemyToPlayerVector= " + enemyToPlayerVector.magnitude + " getting random position is: " + randomPosition + " [machinie is wandering] " + wandering);
-            
         }
         else 
         {
@@ -105,7 +91,6 @@ public class EnemyMovement : MonoBehaviour
         }
 
     }
-
 
     public bool createRandomPoint(Vector3 center, out Vector3 result)
     {
