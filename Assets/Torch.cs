@@ -12,8 +12,6 @@ public class Torch : MonoBehaviour
     public Sprite newSprite;
     private Animator torchAnimator;
     private Collider2D torchCollider;
-    public string restartScenePath = "Scenes/Final_Stage";
-    //private bool hasCollided = false;
 
     void Start()
     {
@@ -24,32 +22,22 @@ public class Torch : MonoBehaviour
         torchCollider = GetComponent<Collider2D>();
     }
 
-
-    //void ChangeSprite()
-    //{
-    // spriteRenderer.sprite = newSprite; 
-    // }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             int total = TorchCounter.instance.AddTorch(); //adds to the total torches
 
-            //hasCollided = true; // 
-
-            //ChangeSprite(); // no need to change the sprite
-
             torchAnimator.SetBool("PlayAnimation", true); //sets the bool to true so the torch can light up
             torchCollider.enabled = false;
             Debug.Log("Collision detected "+ total); // Debugging log
-            if (total >= 2)
+            if (total >= 1)
+            {
+                SceneManager.LoadScene("Scenes/Cutscene");
+            }
+            else if (total >= 2)
             {
                 Destroy(DoorPrefab);
-            } 
-            else if (total >= 4)
-            {
-                SceneManager.LoadScene(restartScenePath);
             }
         }
 

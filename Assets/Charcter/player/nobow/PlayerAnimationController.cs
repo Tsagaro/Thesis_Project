@@ -40,8 +40,8 @@ public class PlayerAnimationController : MonoBehaviour
         animator.SetBool(moveLeftParameter, moveLeft);
         animator.SetBool(moveRightParameter, moveRight);
         animator.SetBool(attackParameter, attack);
-       StartCoroutine(ResetAttackCoroutine());
-        Debug.Log($"MoveUp: {moveUp}, MoveDown: {moveDown}, MoveLeft: {moveLeft}, MoveRight: {moveRight}");
+        StartCoroutine(ResetAttackCoroutine());
+        
 
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -53,7 +53,7 @@ public class PlayerAnimationController : MonoBehaviour
     }
     IEnumerator ResetAttackCoroutine()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         animator.SetBool(attackParameter, false);
     }
 }
