@@ -12,7 +12,7 @@ public class PlayerShooting : MonoBehaviour
     private Vector3 offset = Vector3.zero;
     private Vector2 lastMovementDirection = Vector2.right; // Default direction is +x axis
 
-    private bool canShoot = false;
+    private bool canShoot = false; // stops player from shooting when idle
     private bool freezeShot = false;
     private bool hasBow = false;
      
